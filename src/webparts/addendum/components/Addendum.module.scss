@@ -1,0 +1,38 @@
+@import '~office-ui-fabric-react/dist/sass/References.scss';
+
+.header h1
+{
+  font-size: 38px;
+  font-weight: 600;
+  background-image: linear-gradient(to right, #553c9a 5%, #ee4b2b);
+  color: transparent;
+  background-clip: text;
+  word-spacing: 1px; letter-spacing:2px;
+  -webkit-background-clip: text;
+}
+
+.header div
+{
+  background-image: linear-gradient(to right, #553c9a 5%, #ee4b2b);
+  height: 6px;
+  width: 16%;
+  border-radius: 7px;
+}
+
+.container 
+{
+  position: relative;
+  margin: 8% auto;
+  min-height: 60%;
+  width: 100%;
+  box-shadow: 0 2px 16px rgba(0, 0, 0, 0.6);
+  background: white;
+  padding: 5px 26px 26px 26px;
+  box-sizing: border-box;
+  border-radius: 8px;
+}
+
+.inputControl div
+{
+  width: 100%;
+}
